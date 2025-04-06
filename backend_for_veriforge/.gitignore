@@ -1,0 +1,30 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+
+# Django specific
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Virtual environment
+venv/
+env/
+
+# Django migrations
+*/migrations/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+
+# .env or other sensitive configuration files
+.env
+veriforge_core/model/*.h5
+veriforge_core/model/VGG16.h5
+*/model/
